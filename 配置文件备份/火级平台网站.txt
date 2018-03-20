@@ -1,0 +1,96 @@
+
+svn内网机器：192.168.22.169
+huoji2017
+
+
+内网机器：192.168.22.43
+mysql -uroot -p'cndw321' -h127.0.0.1  -P3306 --default-character-set=utf8
+grant all privileges on *.* to 'hjpf'@'192.168.%.%' identified by 'huoji123';
+
+
+mysql -uhjpf -p'huoji123' -h127.0.0.1  -P3306 --default-character-set=utf8 huoyouGame
+
+
+http://www.xxxh5.com/home/major/majorPage.do
+
+http://www.xxxh5.com/home/wxJsapiPayEntry.do
+
+http://www.xxxh5.com/home/wxlogin.do
+
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hyconfig
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hychannel
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hypay
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hyweb
+
+
+
+mysql -uhuoyou -p'HuOCW1Yv8hVYou' -h127.0.0.1  -P3306 --default-character-set=utf8 hy_config
+
+http://www.xxxh5.com/home/get-weixin-code.html?appid=wx9aaa37e5bae2d1c4&scope=snsapi_login&state=hello-world&redirect_uri=http://www.csdn.com
+
+
+
+
+微信开发平台
+2470237095@qq.com
+huoji123
+
+运营-林金源 2017/5/19 14:43:06
+服务号-火游微游戏中心
+3395571878@qq.com
+huoji123
+
+
+支付宝  2470237095@qq.com  huoji123 huoji123456
+
+
+商户平台登录帐号：1480640882@1480640882
+商户平台登录密码：326879
+
+http://qzapp.qlogo.cn/qzapp/101404256/1525BB39C4379002AD9D6CE6F821035E/30
+http://q.qlogo.cn/qqapp/101404256/1525BB39C4379002AD9D6CE6F821035E/40
+http://q.qlogo.cn/qqapp/101404256/1525BB39C4379002AD9D6CE6F821035E/100
+http://qzapp.qlogo.cn/qzapp/101404256/1525BB39C4379002AD9D6CE6F821035E/100
+http://qzapp.qlogo.cn/qzapp/101404256/1525BB39C4379002AD9D6CE6F821035E/30
+
+
+
+服务号-星火微游戏  hnjywlkj@163.com  huoji123
+https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN
+
+微信开发平台  1780216619@qq.com  jianyou123
+https://open.weixin.qq.com/
+
+微信商户平台  1482088752@1482088752  278584
+https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2Findex.php%2Fcore%2Fapply_bank
+监控支付的账号:lifu_0417@1482088752 lixia_0417
+
+QQ互联  1780216619  xiaoxiao123
+https://connect.qq.com/index.html
+
+支付宝  hnjywlkj@163.com  jianyou123
+https://b.alipay.com/
+
+订阅号-星火小游戏  3032962938@qq.com  jianyou123
+
+服务号-火游微游戏中心  3395571878@qq.com  huoji123
+
+2470237095@qq.com huoji123 huoji123456
+
+mvn package
+mvn dependency:copy-dependencies -DoutputDirectory=lib
+
+treeMap jms myibatis 分布式文件系统 spring和这些数据源组件的组合 phprpc zoopkeeper
+
+ImageLoader.crossOrigin="anonymous";
+
+
+http://192.168.20.132:7011/app/druid/sql.html
+http://be.1717h5.com/user/druid/sql.html
+
+egret.ImageLoader.crossOrigin = "anonymous";
+
+
+http://be.1717h5.com/admin/subscriptNumber/createMenu.do
+http://be.1717h5.com/admin/subscriptNumber/getMaterials.do?type=image&offset=0&count=20
+http://be.1717h5.com/admin/subscriptNumber/getMaterials.do?type=news&offset=0&count=20

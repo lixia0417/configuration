@@ -1,0 +1,33 @@
+斗侠更新地址：http://update.cndw.com/index.php
+
+http://note.youdao.com/noteshare?id=9dcafa3582d02b1189a31514881b1570&sub=29F7B68FD40D4AF998D3710DAF8882E6
+
+https://note.youdao.com/share/?id=9dcafa3582d02b1189a31514881b1570&type=note#/
+
+
+https://msx0rh.axshare.com/
+
+合服相关: 
+ 2618  2017-12-12 14:09:48 cat conf/config.conf 
+ 2619  2017-12-12 14:10:31 python2.7 hefu.py -s 55 -t 52
+ 2620  2017-12-12 14:12:35 python2.7 hefu.py -s 57 -t 52
+ 2621  2017-12-12 14:14:28 python2.7 hefu.py -s 60 -t 59
+ 
+ 
+   992   ./ExecutorsConfig.py -s dx_s0 -c "ConfigActivity ConfigActivityReward ConfigNormalLuckilyDraw ConfigLimitBoxRankDrawReward";
+  993  ./ExecutorsConfig.py -s dx_5066 -c "ConfigActivity ConfigActivityReward ConfigNormalLuckilyDraw ConfigLimitBoxRankDrawReward";
+  
+  
+  腾讯相关:
+  http://tx-dx-admin.gz.1251559967.clb.myqcloud.com/main.do
+  
+  mysql -udouxia -p'XDd41xlXLRFR'  -h10.66.177.171 -P3306 --default-character-set=utf8 tx_dx_s1
+  
+  
+  越南相关:
+  http://admin.dauhiep.slg.vn/main.do
+  mysql -udouxia -p'XDd41xlXLRFR'  -h123.30.146.106  -P3306 --default-character-set=utf8 slg_dx_s1
+  
+  
+  
+  

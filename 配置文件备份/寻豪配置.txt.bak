@@ -1,0 +1,173 @@
+运行配置:       -Xmx1024m -Xms1024m -XX:+PrintGCApplicationStoppedTime -Dio.netty.leakDetectionLevel=paranoid 
+
+本地数据库连接：
+		mysql -uroot -pcndw123 -h127.0.0.1  -P3306 --default-character-set=utf8 dx_s0
+
+内网数据库连接: mysqldump  -uxunhao -p'7DTP5QsRvR$$Qo8' -h192.168.23.241  -P3306 --default-character-set=utf8 dx_s0 > /tmp/dx_s0.sql
+
+		mysql  -uxunhao -p'7DTP5QsRvR$$Qo8' -h192.168.23.241  -P3306 --default-character-set=utf8 dx_s0
+
+		mysql  -uxunhao -p'7DTP5QsRvR$$Qo8' -h192.168.23.241  -P3306 --default-character-set=utf8 tx_dx_admin
+
+		mysqldump  -uxunhao -p'7DTP5QsRvR$$Qo8' -h192.168.23.241  -P3306 --default-character-set=utf8 -d dxlog_s0 > /data/www/db/dxlog_s0.sql
+
+
+ 
+外网数据库连接: 
+ 		mysql -udouxia -p'XDd41xlXLRFR' -h10.221.68.106  -P3306 --default-character-set=utf8 dx_admin
+
+		mysql -udouxia -p'XDd41xlXLRFR' -h10.221.68.106  -P3306 --default-character-set=utf8 dx_s1
+
+		mysql -udouxia -p'XDd41xlXLRFR' -h10.221.68.106  -P3306 --default-character-set=utf8 dx_s2
+
+ 		mysqldump -udouxia -p'XDd41xlXLRFR' -h10.221.68.106  -P3306 --default-character-set=utf8 
+
+腾讯数据库：
+		mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.206 -P3306 --default-character-set=utf8 tx_dx_s1
+
+腾讯socket目录：
+             s0 s20.app1104753051.qqopenapp.com 8020
+	     s1 s21.app1104753051.qqopenapp.com 8021
+
+腾讯home所在域名： http://tx-dx-admin.gz.1252663607.clb.myqcloud.com/main.do
+腾讯admin所在域名：txhome.app1104753051.twsapp.com
+
+腾讯数据库center:
+	mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.206  -P3306 --default-character-set=utf8 tx_dx_admin
+
+腾讯s2服所在的机器:
+10.207.137.252 : 8002
+s24.app1104753051.qqopenapp.com : 8002 
+
+host加域名: 	192.168.23.241 img.cdn.dx.uwan.com
+
+socket所在的端口: 8000 	
+启动命令: /etc/init.d/socket_dxs0
+
+home登陆服启动命令: /etc/init.d/tomcat_home
+
+寻豪腾讯密码: eqzFf9kkObR6^9W
+
+外网home的web配置所在:  /data/apps/tomcat/home/server.xml
+外网home的web配置日志所在:  /data/apps/tomcat/home/logs
+/data/apps/tomcat/home/
+慢查询日志所在：/data/mysql/var/VM_68_106_tlinux-slow.log
+
+admin所在：http://testadmin.app1104753051.twsapp.com
+
+http://testhome.app1104753051.twsapp.com/indexInter.jsp
+
+telnet  s3.app1104753051.qqopenapp.com 8000
+
+
+查看机器上的一些linux定时任务:/etc/crontab
+
+http://ganglia.uwan.com/ hosts: 192.168.14.74 ganglia.uwan.com
+
+SSH连接：
+端口：36000
+用户名：app1104753051
+防火墙：http(no-auth) cvm-proxy.opencloud.qq.com:80	
+
+内网机器密码:cndw123 cndw2014	
+
+斗侠备份目录:
+/data/dv_mon/dv_mysqlbk/local_data
+
+mysql -udouxia -p'XDd41xlXLRFR'  -h10.66.143.43 -P3306 --default-character-set=utf8 360_dx_s1
+
+mysql -udouxia -p'XDd41xlXLRFR'  -h10.66.161.201 -P3306 --default-character-set=utf8 360_dx_s83
+
+
+http://admin.360dx.huoji.com/main.do
+
+登陆斗侠主页面所在服务器的用户名密码：
+fu.li
+uzzthV8JSkc3
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.161.201  -P3306 --default-character-set=utf8 2686_dx_s1
+
+844a平台数据库
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171  -P3306 --default-character-set=utf8 844a_dx_s1
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171  -P3306 --default-character-set=utf8 
+
+http://home.844adx.huoji.com/indexInter.jsp
+
+8090平台
+home.8090dx.huoji.com/indexInterdx.jsp
+admin.8090dx.huoji.com
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.160.207  -P3306 --default-character-set=utf8 
+
+
+008wan
+home.008wandx.huoji.com/indexInterdx.jsp
+admin.008wandx.huoji.com
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218  -P3306 --default-character-set=utf8 
+
+
+星碟
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.160.207  -P3306 --default-character-set=utf8  ufojoy_dx_s1
+home.ufojoydx.huoji.com/indexInterdx.jsp
+admin.ufojoydx.huoji.com
+
+36wan
+home.36awdx.huoji.com/indexInterdx.jsp
+admin.36awdx.huoji.com
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218  -P3306 --default-character-set=utf8 
+
+
+mx175
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.160.207   -P3306 --default-character-set=utf8 
+
+fengyangx
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218  -P3306 --default-character-set=utf8 
+
+360uu
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171   -P3306 --default-character-set=utf8 
+
+36aw
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218   -P3306 --default-character-set=utf8
+
+fengwanyx
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218   -P3306 --default-character-set=utf8        
+admin.fengwanyxdx.huoji.com
+
+accgame
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.43   -P3306 --default-character-set=utf8        
+http://admin.accgamedx.huoji.com/loginPage.do
+
+152G
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.43  -P3306 --default-character-set=utf8        
+http://admin.152gdx.huoji.com/loginPage.do
+
+ccjoy
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.158.218  -P3306 --default-character-set=utf8 ccjoy_dx_s1
+
+
+http://update.cndw.com/login.html
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171  -P3306 --default-character-set=utf8 -e "show full processlist" | grep 844a_dx_s5
+
+2625320363
+Lifu0417
+
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.206  -P3306 --default-character-set=utf8 tx_dxlog_s1
+
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171  -P3306 --default-character-set=utf8 u77_dx_s2
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.177.171  -P3306 --default-character-set=utf8 4399_dx_admin
+
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.160.207  -P3306 --default-character-set=utf8 ccjoy_dx_s11
+
+
+mysql -udouxia -p'XDd41xlXLRFR' -h10.66.143.206  -P3306 --default-character-set=utf8 tx_dx_s1
+
+mysqldump -udouxia -p'XDd41xlXLRFR' -h10.66.143.206  -P3306 --single-transaction --default-character-set=utf8 tx_dx_s1
+
+
+3500498584
+youyi2016

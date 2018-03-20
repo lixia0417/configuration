@@ -1,0 +1,19 @@
+p31 规划组织和维护样式表 
+3.2 定位概述
+
+
+
+hyApp/aliPay/commitPay.do
+hyApp/aliPay/orderId.do 
+hyApp/aliPay/orderState.do
+改成
+pay/aliPay/commitPay.do
+pay/aliPay/orderId.do 
+pay/aliPay/orderState.do
+
+
+微信的充值地址和commitPay.do类似,多加了一个参数openKey.
+pay/wxPublic/wxJsapiPay.do
+参数里面的充值类型改成payType=2
+
+

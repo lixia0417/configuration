@@ -1,0 +1,22 @@
+1.MyBatis
+2.构建高性能Web站点
+3.大型网站技术架构-核心原理与案例分析
+4.cocos2dx
+5.jquery
+6.程序员的自我修养
+7.代码大全(第2版)
+8.memcache客户端源码
+9.effect java
+10.hotspot实战
+
+
+《MySQL技术内幕InnoDB存储引擎第二版》
+《高可用MySQL_构建健壮的数据中心》
+《高性能MySQL第三版》
+
+《MySQL性能调优与架构设计》
+
+
+
+内功：
+    深入理解linux内核

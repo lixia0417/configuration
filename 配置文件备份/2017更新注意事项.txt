@@ -1,0 +1,162 @@
+1.pay项目的ip地址限制需要加上
+
+
+
+
+
+
+truncate table RecommendGame;
+truncate table DisplayGame;
+truncate table GeneralLikeItem;
+truncate table GameDynamicState;
+
+insert into RecommendGame(gameId,type,createAt) values('F4DBN724',1,0),('kiFTARcN',1,0),('veuKyUUy',1,0),('6DBJYOhf',1,0),('U11q2xZP',1,0),('sWJr0ERC',1,0),('8g27bvx3',1,0),('OpACkGRG',1,0),('COoXkBmj',1,0),
+('YTizml5i',1,0),('hPtsKT4B',1,0),('Ukec3Hwm',1,0),('mAuxfjju',1,0),('xVGr6CWA',1,0),('hmdzNEBG',1,0),
+('bxRH3Cuy',2,0),('cWPiiWA7',2,0),('rdKhVTrW',2,0),('DHyObqL1',2,0),('r11cJ2nC',2,0),('UcMpVMmo',2,0),('YaoveAlU',2,0),('8DBHaZb5',2,0),('HTzWrMyS',2,0),('yyawEthR',2,0);
+
+
+insert into DisplayGame(gameId,type,explose,updateTime) values('F4DBN724',1,0,0),('kiFTARcN',1,0,0),('veuKyUUy',1,0,0),('6DBJYOhf',1,0,0),('U11q2xZP',1,0,0),('sWJr0ERC',1,0,0),('8g27bvx3',1,0,0),('OpACkGRG',1,0,0),
+('COoXkBmj',1,0,0),('YTizml5i',1,0,0),('bxRH3Cuy',2,0,0),('cWPiiWA7',2,0,0),('rdKhVTrW',2,0,0),('DHyObqL1',2,0,0),('r11cJ2nC',2,0,0);
+
+INSERT INTO `GeneralLikeItem`(seqId,gameId,defGameId) VALUES (0,'F4DBN724','F4DBN724'),(1,'kiFTARcN','kiFTARcN'),(2,'veuKyUUy','veuKyUUy'),(3,'6DBJYOhf','6DBJYOhf'),(4,'U11q2xZP','U11q2xZP'),(5,'bxRH3Cuy','bxRH3Cuy'),(6,'cWPiiWA7','cWPiiWA7'),(7,'rdKhVTrW','rdKhVTrW'),(8,'DHyObqL1','DHyObqL1'),(9,'r11cJ2nC','r11cJ2nC');
+
+INSERT INTO `GameDynamicState`(gameId,score,scoreRating,totalRecharge,newComers,payRate,createRate,twoDaysRemain,threeDaysRemain,arrpu,updateTime,createAt) VALUES ('F4DBN724',1,'A',0,0,0,0,0,0,0,1509951600,1509951600),
+('kiFTARcN',2,'A',0,0,0,0,0,0,0,1509951600,1509951600),('veuKyUUy',3,'A',0,0,0,0,0,0,0,1509951600,1509951600),('6DBJYOhf',4,'A',0,0,0,0,0,0,0,1509951600,1509951600),('U11q2xZP',5,'A',0,0,0,0,0,0,0,1509951600,1509951600),
+('bxRH3Cuy',6,'A',0,0,0,0,0,0,0,1509951600,1509951600),('cWPiiWA7',7,'S',0,0,0,0,0,0,0,1509951600,1509951600),('rdKhVTrW',8,'A',0,0,0,0,0,0,0,1509951600,1509951600),('DHyObqL1',9,'A',0,0,0,0,0,0,0,1509951600,1509951600),
+('r11cJ2nC',10,'A',0,0,0,0,0,0,0,1509951600,1509951600);
+
+update GameDynamicState inner join ConfigGame  on GameDynamicState.gameId = ConfigGame.gameId set scoreRating = oriScoreRating;
+
+
+		// 解决XStream对出现双下划线的bug
+		XStream xStreamForRequestPostData = new XStream(new DomDriver("UTF-8", new XmlFriendlyNameCoder("-_", "_")));
+		// 将要提交给API的数据对象转换成XML格式数据Post给API
+		xStreamForRequestPostData.alias("xml", xmlObj.getClass());
+		String postDataXML = xStreamForRequestPostData.toXML(xmlObj);
+
+{ "button":[{ "type":"view","name":"传奇1.76","url":"http://1717h5.com"  }, {   "name":"🔥游戏",  "sub_button":[{ "type":"view", "name":"侠客行", "url":"http://1717h5.com"},{  "type":"view", "name":"心动女友","url":"http://1717h5.com" },{  "type":"view", "name":"战龙三国","url":"http://1717h5.com" },{  "type":"view", "name":"天天坦克大战","url":"http://1717h5.com" },{  "type":"view", "name":"传奇盛世载誉归来","url":"http://1717h5.com" }]},{   "name":"🎁福利","sub_button":[  { "type":"view", "name":"🎮更多游戏", "url":"http://1717h5.com"}, {  "type":"view",  "name":"📣微端",  "url":"http://1717h5.com" },{  "type":"view",  "name":"💁客服",  "url":"http://1717h5.com" },{  "type":"view",  "name":"💰领券",  "url":"http://1717h5.com" }]    }]   }
+
+https://apps.timwhitlock.info/emoji/tables/unicode#block-6c-other-additional-symbols
+http://www.cnblogs.com/txw1958/p/weixin-58-custom-menu.html
+http://www.cnblogs.com/txw1958/p/weixin76-user-info.html
+http://blog.devzeng.com/blog/wechat-development-of-firststep.html
+
+//		 {
+//		     "button":[
+//		     {    
+//		          "type":"view",
+//		          "name":"传奇1.76",
+//		          "url":"http://1717h5.com"
+//		      },
+//		      {
+//		           "name":"😊游戏",
+//		           "sub_button":[
+//		           {    
+//		               "type":"view",
+//		               "name":"侠客行",
+//		               "url":"http://1717h5.com"
+//		            },
+//		           {    
+//			               "type":"view",
+//			               "name":"心动女友",
+//			               "url":"http://1717h5.com"
+//			        }]
+//		       },
+//		      {
+//		    	   "name":"😊福利",
+//		           "sub_button":[
+//		           {    
+//		               "type":"view",
+//		               "name":"更多游戏",
+//		               "url":"http://1717h5.com"
+//		            },
+//		           {    
+//			               "type":"view",
+//			               "name":"客服",
+//			               "url":"http://1717h5.com"
+//			        }] 
+//		      }]
+//		 }
+
+
+
+CREATE TABLE IF NOT EXISTS `PlayerGoods` (
+   id char(18) comment 'id标识符号',
+  `uid` bigint(20) NOT NULL DEFAULT '0' COMMENT '用户Id',
+  `goodsId` int(11) DEFAULT '0' COMMENT '物品Id',    
+   availableTime int(11) DEFAULT '0' COMMENT '物品有效时间',  
+  `createAt` int(11) DEFAULT '0' COMMENT '创建时间',
+  PRIMARY KEY (`id`),  
+  key(uid,goodsId)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='玩家物品信息';
+truncate table PlayerMail;
+alter table PlayerMail modify column id bigint(20) default 0 comment '邮件主键标识';
+alter table GameUser modify updateTime bigint(20) default 0;
+alter table UserFans add column openFocus tinyint(3) default 0 comment '是否已经点开过关注，点开过关注的情况下，关注的小红点不会再存在(除非再次发帖)';
+alter table PlayerStatus add column firstLogin tinyint(3) default 0 comment '是否首次注册';
+alter table PlayerStatus add column sgTime int(11) default 0 comment '点击玩游戏的最新时间';
+alter table PlayerStatus add column spTime int(11) default 0 comment '最近的充值时间';
+alter table PlayerStatus add column birthday int(11) default 0 comment '玩家生日日期';
+alter table PlayerMail add column goods varchar(200) default '' comment '邮件的物品id内容';
+alter table  GameUser add column vipPoints int(11) default 0 comment 'vip成长值';
+update GameUser set vip = 1 where vip =0;
+
+
+
+
+alter table ConfigGame modify column gameId varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL default '' comment '游戏Id';
+update ConfigGame set oriScoreRating = left(oriScoreRating,1) where oriScoreRating is not null and oriScoreRating !='';
+alter table DisplayGame modify column updateTime bigint(20) default 0 comment '排序用的操作时间';
+CREATE TABLE `AdminMail` (
+  `mailId` int(11) NOT NULL AUTO_INCREMENT COMMENT '邮件Id',
+  `sendUid` bigint(20) DEFAULT '0' COMMENT '发送邮件的管理员账号id',
+  `sender` varchar(30) COLLATE utf8_unicode_ci DEFAULT '' COMMENT '发送邮件的管理员账号名称',
+  `influenceType` tinyint(3) DEFAULT '0' COMMENT '邮件发送的范围:0用户id，1全平台',
+  `recipients` varchar(2000) COLLATE utf8_unicode_ci DEFAULT '' COMMENT '接收者Id',
+  `theme` varchar(100) COLLATE utf8_unicode_ci DEFAULT '' COMMENT '邮件标题',
+  `content` varchar(255) COLLATE utf8_unicode_ci DEFAULT '' COMMENT '邮件内容',
+  `createAt` int(11) DEFAULT '0' COMMENT '创建时间',
+  `goods` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT '物品',
+  PRIMARY KEY (`mailId`)
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+alter table GamePropsCoupon add column adminHide tinyint(3) default 0;
+
+
+
+CREATE TABLE  IF NOT EXISTS `ChannelPlayGame` (
+  `uid` bigint(20) NOT NULL,
+  `gameId` varchar(20) NOT NULL,
+  `openid` varchar(32) DEFAULT NULL,
+  `channelId` varchar(20) NOT NULL,
+  `updateTime` int(11) DEFAULT NULL,
+  `payUpdateTime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`uid`,`gameId`,`channelId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `ChannelStatistic` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `addUser` int(11) NOT NULL DEFAULT '0' COMMENT '新增用户数',
+  `activeUser` int(11) NOT NULL DEFAULT '0' COMMENT '活跃用户数',
+  `payUser` int(11) NOT NULL DEFAULT '0' COMMENT '充值用户数',
+  `money` double(20,2) NOT NULL DEFAULT '0.00' COMMENT '充值数额',
+  `revenueMoney` double(20,2) DEFAULT '0.00' COMMENT '收入分成',
+  `updateTime` int(11) DEFAULT '0' COMMENT '更新时间',
+  `createAt` int(11) DEFAULT '0' COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='渠道平台统计记录';
+
+
+alter table Pay add column name  varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci default '' comment '用户昵称';
+alter table PaySanBox add column name  varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci default '' comment '用户昵称';
+
+
+CREATE TABLE `UserLogOperation` (
+  `uid` bigint(20) DEFAULT '0' COMMENT '用户uid',
+  `name` varchar(100) CHARACTER SET utf8mb4 NOT NULL DEFAULT '' COMMENT '用户昵称',
+  `type` int(11) DEFAULT '0' COMMENT '主类型Id',
+  `typeName` varchar(20) DEFAULT '' COMMENT '主类型名称',
+  `vip` tinyint(3) DEFAULT '0' COMMENT 'vip等级',
+  `content` varchar(300) CHARACTER SET utf8mb4 NOT NULL DEFAULT '' COMMENT '操作日志内容',
+  `pfCoins` int(11) DEFAULT '0' COMMENT '平台币',
+  `points` int(11) DEFAULT '0' COMMENT '积分',
+  `createAt` int(11) DEFAULT '0' COMMENT '创建时间'
+) ENGINE=INNODB  DEFAULT CHARSET=utf8 PARTITION BY HASH(uid) PARTITIONS 10;

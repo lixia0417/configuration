@@ -1,0 +1,49 @@
+svn://192.168.21.88:9999/mis_zero/
+lifu = HWo8TPpnJBEM
+
+
+mysql -uuwansdk -p'abcd1234' -h192.168.21.88 -P3306 --default-character-set=utf8 uwan_sdk
+
+
+192.168.21.88
+root
+StatCenterRootAgVBE
+
+
+192.168.21.88
+mysql  root  statmysqlxxyy888
+
+mysql -uroot -p'statmysqlxxyy888' -hlocalhost -P3306 --default-character-set=utf8 
+
+
+http://localhost:8561/druid/index.html
+http://localhost:8521/service-admin/druid/index.html
+
+
+https://pass.dovogame.com/Admin_Login.aspx?url=pass.dovogame.com/default.aspx
+jishuzx
+jishuzx123456
+
+
+203.195.199.135  DataCenter  @9mF@sAQ#d69UmT#
+你安装个SQL server 2008 可以看到
+
+
+docker本地执行生成镜像
+mvn -X clean package docker:build -DskipTests
+
+
+docker run  --rm --name eurekaserver1 --cap-add=SYS_PTRACE -d -p 8511:8511 -t uwan-platform/uwan-eureka 
+docker run  --name eurekaserver1 --cap-add=SYS_PTRACE -d -p 8511:8511 -t uwan-platform/uwan-eureka
+
+docker exec -it eurekaserver1 /bin/sh
+
+docker exec -it 18b01106b55f top -H -p 1
+docker exec -it 18b01106b55f ps -To pcpu,tid,pid,user 1 |sort -r -k1 |more
+
+下载
+docker cp ecef8319d2c8:/root/test.txt /root/
+上传
+docker cp /work/algo-algorithms-boot-0.0.1-SNAPSHOT.jar 9f4b8e8b79c2:/work/
+
+docker run  --rm --name eurekaserver1 -v /usr/bin/:/mnt/bin/ --cap-add=SYS_PTRACE -d -p 8511:8511 -t uwan-platform/uwan-eureka  

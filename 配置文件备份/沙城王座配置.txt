@@ -1,0 +1,115 @@
+内网:
+数据库：
+mysql -uroot -p'cndw321' -h127.0.0.1  -P3306 --default-character-set=utf8 
+
+mysql -uscwz -p'7DTP5QsRvR$$Qo7' -h192.168.21.110  -P3306 --default-character-set=utf8 
+
+内网home:
+http://s0.h5.com/h5home/index.jsp
+http://s0.h5.com/h5home/refleshServers.do
+http://s0.h5.com/h5home/login.do
+http://s0.h5.com/h5home/recordServer.do
+
+http://sj.scwz.uwan.com/scwz_home_shenji/login.do
+
+-Xmx512m -Xms512m -XX:+PrintGCApplicationStoppedTime -Dio.netty.leakDetectionLevel=paranoid 
+
+img.h5.com
+
+
+审计服：
+
+Ip: 203.195.133.53  
+
+mysql -uscwz -p'k2c+wwAtxwzI2dlf'  -h127.0.0.1 -P3306 --default-character-set=utf8 
+
+
+腾讯初审:
+Ip: 123.207.84.94
+
+wx9aaa37e5bae2d1c4
+693e1f8d1bab9f0dbba8d4a3435a4f96
+693e1f8d1bab9f0dbba8d4a3435a4f96
+
+mysql -uscwz -p'7DTP5QsRvR$$Qo7'  -h127.0.0.1 -P3306 --default-character-set=utf8 
+
+http://s0.scwz.uwan.com/img/index.html
+
+home路径信息：
+/data/www/scwz_shenji/scwz_home
+/etc/init.d/scwz_tomcat_home
+
+
+http://sj.scwz.uwan.com/scwz_home_shenji/index.jsp
+
+登录入口
+http://img.scwz.uwan.com/index.html
+
+http://s0.scwz.uwan.com/scwz_home_s0/index.jsp
+http://s0.scwz.uwan.com/scwz_home_s0/login.do
+
+
+http://s0.scwz.uwan.com/scwz_admin_s0/wxlogin.do
+
+http://www.xxxh5.com/home/wxPublicLogin.do
+
+
+grant all privileges on *.* to h5@10.163.225.87 identified by '7DTP5QsRvR$$Qo7';
+
+
+egret 的s0地址
+home地址:
+s0.egret.scwz.uwan.com/scwz_egret_home_s0/login.do
+
+http://s0.egret.scwz.uwan.com/scwz_egret_home_s0/charge.do
+
+mysql -uscwz -p'7DTP5QsRvR$$Qo7'  -h127.0.0.1 -P3306 --default-character-set=utf8  scwz_egret_s0
+
+mysql -uscwz -p'7DTP5QsRvR$$Qo7'  -h127.0.0.1 -P3306 --default-character-set=utf8  scwz_tx_s0
+http://img.cdn.scwz.uwan.com/100001/index.html
+
+地址：https://cdncs.fastweb.com.cn
+uwan_scwz
+ScWKbXtt4fZZh5
+
+/data/apps/jdk1.7/bin/java -cp /data/apps/jdk1.7/lib/tools.jar:/data/www/scwz_s0/Test/vmAttach/VMAttachMul_fat.jar attach.AttachVmSocketMul 22194
+
+登陆斗侠主页面所在服务器的用户名密码：
+fu.li
+uzzthV8JSkc3
+
+http://192.168.22.43/game67kjloi5/chuanji.jpeg
+
+
+http://1717h5.com/play?gameId=opoHZcLl
+
+192.168.22.43
+root
+cndw321
+
+
+http://api.egret-labs.org/v3/Game?chan_id=9166&game_id=91350&url=http%3A%2F%2Fimg.cdn.scwz.uwan.com%2F100001%2Findex.html%3FplatInfo%3Dopen_91350_9166%26appId%3D91350%26egret.runtime.spid%3D9166%26channelId%3D9166%26isNewApi%3D1%26egretSdkDomain%3Dhttps%3A%2F%2Fapi.egret-labs.org%2Fv3%26egretServerDomain%3Dhttps%3A%2F%2Fapi.egret-labs.org%2Fv3%26egretRv%3D484%26loginType%3D1%26iframe%3D1
+
+ituuz(997841721)
+
+http://1717h5.com/hyApp/home/homePage.do
+
+
+微信开发平台
+2470237095@qq.com
+huoji123
+
+运营-林金源 2017/5/19 14:43:06
+服务号-火游微游戏中心
+3395571878@qq.com
+huoji123
+
+npm install,npm run forever,forever stop pid
+
+npm run dev
+
+
+
+/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
+
+http://be.1717h5.com/pay/aliPay/orderId.do?openkey=1512096604937esRMq&openid=833B0811D655677E8C06DF41F68274B1&appid=sWJr0ERC&sId=1&total_amount=1&subject=test&body=testbody

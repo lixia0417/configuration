@@ -1,0 +1,5 @@
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hyconfig
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hychannel
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hypay
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hyweb
+mysql -uhyapp -p'huoji123' -h192.168.22.43  -P3306 --default-character-set=utf8 hylog
